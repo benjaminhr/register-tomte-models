@@ -1,0 +1,17 @@
+constants: []
+inputInterfaces:
+  IDummy:
+  - int
+  - int
+  IReceive:
+  - int
+  - int
+  ISend:
+  - int
+  - int
+  ITau: []
+name: input_enabled
+outputInterfaces:
+  OFINAL: []
+  OOK: []
+  Oquiescence: []

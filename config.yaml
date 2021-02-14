@@ -1,0 +1,28 @@
+learning:
+  mode: "stateVarN"
+  sutinfoFile: "sutinfo.yaml"
+  seed: 1299465753483883
+  algorithm: observationPack
+testing:
+  minValue: 0
+  maxValue: 4000
+  minTraceLength: 0
+  maxTraceLength: 100
+  maxNumTraces: 10000
+  methods: ["randomWalkFromState"]
+  randomWalkFromState:
+    maxNumTraces: 10000
+    minTraceLength: 0
+    maxTraceLength: 100
+verification: null
+# verification:
+#   methods: ["traces"]
+#   traces:
+#     verificationTraces:
+#       - IDummy(1,0) -> ISend(1, 2) -> IRecieve(1, 3)
+#       - IDummy(1,0) -> IRecieve(1, 3) -> ISend(1, 2)
+# - IPut(0) -> IPut(0) -> IPut(1) -> IPut(1) -> IPut(2) -> IPut(2) -> IPut(3) -> IPut(3) -> IPut(4) -> IPut(4) -> IPut(5) -> IPut(5) -> IPut(6) -> IPut(6) -> IPut(7) -> IPut(7) -> IPut(8) -> IPut(8) -> IPut(9) -> IPut(9) -> IPut(10) -> IPut(10) -> IPut(11) -> IPut(11) -> IGet() -> IGet() -> IGet() -> IGet() -> IGet() -> IGet() -> IGet() -> IGet() -> IGet() -> IGet() -> IGet() -> IGet()
+# logging:
+#   special:
+#     memTraces: true
+#     equivTraces: true
