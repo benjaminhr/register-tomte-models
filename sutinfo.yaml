@@ -1,17 +1,12 @@
 constants: []
 inputInterfaces:
-  IDummy:
+  IDummy: []
+  IPop:
   - int
+  IPush:
   - int
-  IReceive:
-  - int
-  - int
-  ISend:
-  - int
-  - int
-  ITau: []
-name: input_enabled
+name: stack_temp
 outputInterfaces:
-  OFINAL: []
+  ODummy: []
+  OFinal: []
   OOK: []
-  Oquiescence: []
