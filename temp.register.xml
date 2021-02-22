@@ -15,7 +15,6 @@
       <symbol name="IDummy">
         <param name="p0" type="int" />
       </symbol>
-
     </inputs>
 
     <outputs>
